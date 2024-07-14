@@ -28,6 +28,7 @@ function SpaceName() {
         onChange={handleInputChange}
         placeholder="Space's Name"
         maxLength={20}
+        spellCheck='false'
       />
     </div>
   );
