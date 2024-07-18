@@ -1,0 +1,67 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 90vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 15px;
+    margin-top: 25px;
+}
+.weather{
+    background-color: rgb(255, 0, 0,60%);
+    grid-area: 1/1/4/2;
+    border-radius: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.time{
+    background-color: rgb(255, 192, 203,60%);
+    grid-area: 1/2/3/7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.todo{
+    background-color: rgb(135, 206, 235,60%);
+    grid-area: 3/2/7/5;
+    border-radius: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.music{
+    background-color: rgb(128, 128, 128,60%);
+    grid-area: 3/5/7/7;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  padding: 20px;
+}
+.music button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF5060; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+.music progress {
+  width: 80%;
+}
+
+
+.timer{
+    background-color: rgb(248, 248, 7,60%);
+    grid-area: 4/1/7/2;
+    border-radius: 25px;
+    text-align: center;
+
+}
